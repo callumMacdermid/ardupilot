@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{3c7df86f-0c4a-4cbf-8e78-47b439c0c9f0}</ProjectGuid>
+    <RootNamespace>customPeriphArdupilot</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ArduPlane\afs_plane.cpp" />
+    <ClCompile Include="ArduPlane\altitude.cpp" />
+    <ClCompile Include="ArduPlane\AP_Arming.cpp" />
+    <ClCompile Include="ArduPlane\ArduPlane.cpp" />
+    <ClCompile Include="ArduPlane\Attitude.cpp" />
+    <ClCompile Include="ArduPlane\avoidance_adsb.cpp" />
+    <ClCompile Include="ArduPlane\commands.cpp" />
+    <ClCompile Include="ArduPlane\commands_logic.cpp" />
+    <ClCompile Include="ArduPlane\control_modes.cpp" />
+    <ClCompile Include="ArduPlane\events.cpp" />
+    <ClCompile Include="ArduPlane\failsafe.cpp" />
+    <ClCompile Include="ArduPlane\GCS_Mavlink.cpp" />
+    <ClCompile Include="ArduPlane\GCS_Plane.cpp" />
+    <ClCompile Include="ArduPlane\geofence.cpp" />
+    <ClCompile Include="ArduPlane\is_flying.cpp" />
+    <ClCompile Include="ArduPlane\Log.cpp" />
+    <ClCompile Include="ArduPlane\mode.cpp" />
+    <ClCompile Include="ArduPlane\mode_acro.cpp" />
+    <ClCompile Include="ArduPlane\mode_auto.cpp" />
+    <ClCompile Include="ArduPlane\mode_autotune.cpp" />
+    <ClCompile Include="ArduPlane\mode_avoidADSB.cpp" />
+    <ClCompile Include="ArduPlane\mode_circle.cpp" />
+    <ClCompile Include="ArduPlane\mode_cruise.cpp" />
+    <ClCompile Include="ArduPlane\mode_fbwa.cpp" />
+    <ClCompile Include="ArduPlane\mode_fbwb.cpp" />
+    <ClCompile Include="ArduPlane\mode_guided.cpp" />
+    <ClCompile Include="ArduPlane\mode_initializing.cpp" />
+    <ClCompile Include="ArduPlane\mode_loiter.cpp" />
+    <ClCompile Include="ArduPlane\mode_manual.cpp" />
+    <ClCompile Include="ArduPlane\mode_qacro.cpp" />
+    <ClCompile Include="ArduPlane\mode_qautotune.cpp" />
+    <ClCompile Include="ArduPlane\mode_qhover.cpp" />
+    <ClCompile Include="ArduPlane\mode_qland.cpp" />
+    <ClCompile Include="ArduPlane\mode_qloiter.cpp" />
+    <ClCompile Include="ArduPlane\mode_qrtl.cpp" />
+    <ClCompile Include="ArduPlane\mode_qstabilize.cpp" />
+    <ClCompile Include="ArduPlane\mode_rtl.cpp" />
+    <ClCompile Include="ArduPlane\mode_stabilize.cpp" />
+    <ClCompile Include="ArduPlane\mode_takeoff.cpp" />
+    <ClCompile Include="ArduPlane\mode_training.cpp" />
+    <ClCompile Include="ArduPlane\motor_test.cpp" />
+    <ClCompile Include="ArduPlane\navigation.cpp" />
+    <ClCompile Include="ArduPlane\parachute.cpp" />
+    <ClCompile Include="ArduPlane\Parameters.cpp" />
+    <ClCompile Include="ArduPlane\Plane.cpp" />
+    <ClCompile Include="ArduPlane\qautotune.cpp" />
+    <ClCompile Include="ArduPlane\quadplane.cpp" />
+    <ClCompile Include="ArduPlane\radio.cpp" />
+    <ClCompile Include="ArduPlane\RC_Channel.cpp" />
+    <ClCompile Include="ArduPlane\reverse_thrust.cpp" />
+    <ClCompile Include="ArduPlane\sensors.cpp" />
+    <ClCompile Include="ArduPlane\servos.cpp" />
+    <ClCompile Include="ArduPlane\soaring.cpp" />
+    <ClCompile Include="ArduPlane\system.cpp" />
+    <ClCompile Include="ArduPlane\tailsitter.cpp" />
+    <ClCompile Include="ArduPlane\takeoff.cpp" />
+    <ClCompile Include="ArduPlane\tiltrotor.cpp" />
+    <ClCompile Include="ArduPlane\tuning.cpp" />
+    <ClCompile Include="ArduPlane\version.cpp" />
+    <ClCompile Include="libraries\AP_UAVCAN\AP_UAVCAN.cpp" />
+    <ClCompile Include="libraries\AP_UAVCAN\AP_UAVCAN_DNA_Server.cpp" />
+    <ClCompile Include="libraries\AP_UAVCAN\AP_UAVCAN_SLCAN.cpp" />
+    <ClCompile Include="Tools\AP_Periph\adsb.cpp" />
+    <ClCompile Include="Tools\AP_Periph\AP_Periph.cpp" />
+    <ClCompile Include="Tools\AP_Periph\can.cpp" />
+    <ClCompile Include="Tools\AP_Periph\hwing_esc.cpp" />
+    <ClCompile Include="Tools\AP_Periph\Parameters.cpp" />
+    <ClCompile Include="Tools\AP_Periph\version.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArduPlane\afs_plane.h" />
+    <ClInclude Include="ArduPlane\AP_Arming.h" />
+    <ClInclude Include="ArduPlane\avoidance_adsb.h" />
+    <ClInclude Include="ArduPlane\config.h" />
+    <ClInclude Include="ArduPlane\defines.h" />
+    <ClInclude Include="ArduPlane\GCS_Mavlink.h" />
+    <ClInclude Include="ArduPlane\GCS_Plane.h" />
+    <ClInclude Include="ArduPlane\mode.h" />
+    <ClInclude Include="ArduPlane\Parameters.h" />
+    <ClInclude Include="ArduPlane\Plane.h" />
+    <ClInclude Include="ArduPlane\qautotune.h" />
+    <ClInclude Include="ArduPlane\quadplane.h" />
+    <ClInclude Include="ArduPlane\RC_Channel.h" />
+    <ClInclude Include="ArduPlane\tuning.h" />
+    <ClInclude Include="ArduPlane\version.h" />
+    <ClInclude Include="libraries\AP_UAVCAN\AP_UAVCAN.h" />
+    <ClInclude Include="libraries\AP_UAVCAN\AP_UAVCAN_DNA_Server.h" />
+    <ClInclude Include="libraries\AP_UAVCAN\AP_UAVCAN_SLCAN.h" />
+    <ClInclude Include="Tools\AP_Periph\AP_Periph.h" />
+    <ClInclude Include="Tools\AP_Periph\hwing_esc.h" />
+    <ClInclude Include="Tools\AP_Periph\i2c.h" />
+    <ClInclude Include="Tools\AP_Periph\Parameters.h" />
+    <ClInclude Include="Tools\AP_Periph\version.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArduPlane\createTags" />
+    <None Include="ArduPlane\Makefile.waf" />
+    <None Include="ArduPlane\wscript" />
+    <None Include="Tools\AP_Periph\README.md" />
+    <None Include="Tools\AP_Periph\wscript" />
+    <None Include="Tools\scripts\apj_tool.py" />
+    <None Include="Tools\scripts\bin2hex.py" />
+    <None Include="Tools\scripts\build-jsbsim.sh" />
+    <None Include="Tools\scripts\build_all.sh" />
+    <None Include="Tools\scripts\build_appveyor.sh" />
+    <None Include="Tools\scripts\build_autotest.sh" />
+    <None Include="Tools\scripts\build_binaries.py" />
+    <None Include="Tools\scripts\build_binaries_history.py" />
+    <None Include="Tools\scripts\build_bootloaders.py" />
+    <None Include="Tools\scripts\build_ci.sh" />
+    <None Include="Tools\scripts\build_docs.sh" />
+    <None Include="Tools\scripts\build_examples.py" />
+    <None Include="Tools\scripts\build_examples.sh" />
+    <None Include="Tools\scripts\build_iofirmware.py" />
+    <None Include="Tools\scripts\build_log_message_documentation.sh" />
+    <None Include="Tools\scripts\build_parameters.sh" />
+    <None Include="Tools\scripts\check_firmware_version.py" />
+    <None Include="Tools\scripts\configure-ci.sh" />
+    <None Include="Tools\scripts\configure_all.py" />
+    <None Include="Tools\scripts\decode-ICSR.py" />
+    <None Include="Tools\scripts\decode_devid.py" />
+    <None Include="Tools\scripts\dumpstack.sh" />
+    <None Include="Tools\scripts\fix_libraries_includes.sh" />
+    <None Include="Tools\scripts\format.sh" />
+    <None Include="Tools\scripts\frame_sizes.py" />
+    <None Include="Tools\scripts\generate_manifest.py" />
+    <None Include="Tools\scripts\gen_stable.py" />
+    <None Include="Tools\scripts\install-apt-ci.sh" />
+    <None Include="Tools\scripts\logic_decode_channels.py" />
+    <None Include="Tools\scripts\magfit_flashlog.py" />
+    <None Include="Tools\scripts\make_abin.sh" />
+    <None Include="Tools\scripts\make_apj.py" />
+    <None Include="Tools\scripts\make_intel_hex.py" />
+    <None Include="Tools\scripts\param_unpack.py" />
+    <None Include="Tools\scripts\playback_log_fg.py" />
+    <None Include="Tools\scripts\rcda_decode.py" />
+    <None Include="Tools\scripts\run-coverage.sh" />
+    <None Include="Tools\scripts\runfliptest.py" />
+    <None Include="Tools\scripts\runplanetest.py" />
+    <None Include="Tools\scripts\tfminiplus.py" />
+    <None Include="Tools\scripts\unpack_mp.sh" />
+    <None Include="Tools\scripts\uploader.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ArduPlane\release-notes.txt" />
+    <Text Include="Tools\AP_Periph\release-notes.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

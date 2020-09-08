@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ArduPlane">
+      <UniqueIdentifier>{73fbc975-9bb3-4d9d-911f-68fb4cd1af94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AP_Periph">
+      <UniqueIdentifier>{d7db5adb-f278-4846-a096-8a371deca4f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{f5b466ff-5288-4126-ab03-49089f64ff72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{217c9b38-dcdc-4921-b5de-73d12b580e1b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArduPlane\afs_plane.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\altitude.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\AP_Arming.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\ArduPlane.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\Attitude.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\avoidance_adsb.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\commands.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\commands_logic.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\control_modes.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\events.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\failsafe.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\GCS_Mavlink.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\GCS_Plane.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\geofence.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\is_flying.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\Log.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\mode.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\mode_acro.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\mode_auto.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\mode_autotune.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\mode_avoidADSB.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\mode_circle.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\mode_cruise.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\mode_fbwa.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\mode_fbwb.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\mode_guided.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\mode_initializing.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\mode_loiter.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\mode_manual.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\mode_qacro.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\mode_qautotune.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\mode_qhover.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\mode_qland.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\mode_qloiter.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\mode_qrtl.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\mode_qstabilize.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\mode_rtl.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\mode_stabilize.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\mode_takeoff.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\mode_training.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\motor_test.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\navigation.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\parachute.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\Parameters.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\Plane.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\qautotune.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\quadplane.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\radio.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\RC_Channel.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\reverse_thrust.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\sensors.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\servos.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\soaring.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\system.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\tailsitter.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\takeoff.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\tiltrotor.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\tuning.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduPlane\version.cpp">
+      <Filter>ArduPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\AP_Periph\adsb.cpp">
+      <Filter>AP_Periph</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\AP_Periph\AP_Periph.cpp">
+      <Filter>AP_Periph</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\AP_Periph\can.cpp">
+      <Filter>AP_Periph</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\AP_Periph\hwing_esc.cpp">
+      <Filter>AP_Periph</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\AP_Periph\Parameters.cpp">
+      <Filter>AP_Periph</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\AP_Periph\version.cpp">
+      <Filter>AP_Periph</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\AP_UAVCAN\AP_UAVCAN.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\AP_UAVCAN\AP_UAVCAN_DNA_Server.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\AP_UAVCAN\AP_UAVCAN_SLCAN.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArduPlane\afs_plane.h">
+      <Filter>ArduPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduPlane\AP_Arming.h">
+      <Filter>ArduPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduPlane\avoidance_adsb.h">
+      <Filter>ArduPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduPlane\config.h">
+      <Filter>ArduPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduPlane\defines.h">
+      <Filter>ArduPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduPlane\GCS_Mavlink.h">
+      <Filter>ArduPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduPlane\GCS_Plane.h">
+      <Filter>ArduPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduPlane\mode.h">
+      <Filter>ArduPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduPlane\Parameters.h">
+      <Filter>ArduPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduPlane\Plane.h">
+      <Filter>ArduPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduPlane\qautotune.h">
+      <Filter>ArduPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduPlane\quadplane.h">
+      <Filter>ArduPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduPlane\RC_Channel.h">
+      <Filter>ArduPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduPlane\tuning.h">
+      <Filter>ArduPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduPlane\version.h">
+      <Filter>ArduPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\AP_Periph\AP_Periph.h">
+      <Filter>AP_Periph</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\AP_Periph\hwing_esc.h">
+      <Filter>AP_Periph</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\AP_Periph\i2c.h">
+      <Filter>AP_Periph</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\AP_Periph\Parameters.h">
+      <Filter>AP_Periph</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\AP_Periph\version.h">
+      <Filter>AP_Periph</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\AP_UAVCAN\AP_UAVCAN.h">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\AP_UAVCAN\AP_UAVCAN_DNA_Server.h">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\AP_UAVCAN\AP_UAVCAN_SLCAN.h">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArduPlane\createTags">
+      <Filter>ArduPlane</Filter>
+    </None>
+    <None Include="ArduPlane\Makefile.waf">
+      <Filter>ArduPlane</Filter>
+    </None>
+    <None Include="ArduPlane\wscript">
+      <Filter>ArduPlane</Filter>
+    </None>
+    <None Include="Tools\AP_Periph\README.md">
+      <Filter>AP_Periph</Filter>
+    </None>
+    <None Include="Tools\AP_Periph\wscript">
+      <Filter>AP_Periph</Filter>
+    </None>
+    <None Include="Tools\scripts\apj_tool.py">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\bin2hex.py">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_all.sh">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_appveyor.sh">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_autotest.sh">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_binaries.py">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_binaries_history.py">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_bootloaders.py">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_ci.sh">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_docs.sh">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_examples.py">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_examples.sh">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_iofirmware.py">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_log_message_documentation.sh">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_parameters.sh">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build-jsbsim.sh">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\check_firmware_version.py">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\configure_all.py">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\configure-ci.sh">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\decode_devid.py">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\decode-ICSR.py">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\dumpstack.sh">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\fix_libraries_includes.sh">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\format.sh">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\frame_sizes.py">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\gen_stable.py">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\generate_manifest.py">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\install-apt-ci.sh">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\logic_decode_channels.py">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\magfit_flashlog.py">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\make_abin.sh">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\make_apj.py">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\make_intel_hex.py">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\param_unpack.py">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\playback_log_fg.py">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\rcda_decode.py">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\run-coverage.sh">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\runfliptest.py">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\runplanetest.py">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\tfminiplus.py">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\unpack_mp.sh">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\uploader.py">
+      <Filter>Scripts</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ArduPlane\release-notes.txt">
+      <Filter>ArduPlane</Filter>
+    </Text>
+    <Text Include="Tools\AP_Periph\release-notes.txt">
+      <Filter>AP_Periph</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
